@@ -1,9 +1,40 @@
+body {
+	margin: 0px;
+}
+
+#pre_last_bloc {
+	width: 100%;
+	height: 25em;
+	background-color:#323A45;
+	margin: 0px;
+}
+
+#pre_last_bloc h2 {
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 170%;
+	margin: 0px;
+	padding-top: 3.5em;
+}
+
+span {
+	font-weight: bold;
+}
+
 * {
 	box-sizing: border-box;
 }
 
 body {
+<<<<<<< HEAD
     background-color: 
+=======
+
+    background-color: aquamarine;
+    background-color: red;
+
+>>>>>>> 82f31c4692dfb4fe4852da81a2ec756b298210f9
 }
 html, body {
     height: 100%;
