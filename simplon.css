@@ -3,18 +3,61 @@
 }
 
 body {
-    background-color: aquamarine;
+    background-color: red;
 }
 html, body {
     height: 100%;
     width: 100%;
 }
 
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url('images/headerbg.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+	padding-top: 10px;
+}
+
+.logo{
+	float: left;
+	color: white;
+}
+
+header>nav>ul{
+	float: right;
+}
+
+header>nav>ul>li{
+	display: inline-block;
+	margin-right: 20px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+
+header>nav>ul>li:hover{
+	color: red;
+	transition: color 0.5s;
+}
+
+.sign{
+	border: red 1px solid;
+	border-radius: 4px;
+	color: red;
+	padding: 0 10px 0 10px;
+}
 h1 {
 	font-size: 5em;
 	color: pink;
 }
 
+<<<<<<< HEAD
 #diana {
 	color: darkblue;
 }
@@ -22,13 +65,18 @@ h1 {
 <<<<<<< HEAD
 
 =======
+=======
+>>>>>>> a4bb52b390b2d6142b002141f4b00862a48c2992
 #cyan_box {
     background-color: cyan;
     margin-top: 5em;
     width: 100%;
     height: 20em;
 }
-<<<<<<< HEAD
+
+ #content {
+ 	border: 2px solid green;
+ }
 
 .heart{
     position: relative;
@@ -75,22 +123,85 @@ h1 {
  #content {
  	border: 2px solid green;
  }
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-#callRandome{}
-=======
->>>>>>> 0f321af379997281141b852e60c36e65bae86e57
-=======
->>>>>>> 1f423af0eaa0fa75743cd9ff8235fdaa20421ec0
 
-footer{
-	background-color: red;
-}
-=======
  #content {
  	border: 2px solid green;
  }
->>>>>>> bcb8ab1c65f0eddccfbd5e3a3bbd5e4fcf6b097d
->>>>>>> 5f5fa1768daa0313936bc0a34268bbfcb9ef3816
->>>>>>> 3497942419c95ee04da353d6653444d56c5720d1
+
+ #content {
+ 	border: 2px solid green;
+ }
+ #miaou{
+  width: 100%;
+  height: 500px;
+  background: url('images/chaton-trop-mignon-tigre.jpg') no-repeat center;
+ }
+
+footer{
+	background-color: red;
+	text-align: center;
+}
+
+footer h2 {
+    background-color: yellow;
+}
+
+h6 {
+	color: yellow;
+	font-weight: bold;
+}
+
+.he5art-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -2em;
+  font-size: 5px;
+}
+
+.he5art {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 0 7em;
+  background: #a52a21;
+  box-shadow:
+    /* white shine */
+    0 -2em 0 white,
+    -3em 0 0 white,
+    -2em -1em 0 white,
+    /* top shades */
+    0 -1em 0 0 #c52317,
+    -1em -2em 0 0 #c52317,
+    -2em -2em 0 0 #c52317,
+    -3em -2em 0 0 #c52317,
+    1em -2em 0 0 #c52317,
+    2em -2em 0 0 #c52317,
+    3em -2em 0 0 #c52317,
+    -4em -1em 0 0 #c52317,
+    4em -1em 0 0 #c52317,
+    /* fills my heart */
+    0 0 0 2em #a52a21,
+    -1em 0 0 2em #a52a21,
+    1em 0 0 2em #a52a21,
+    -3em 0 0 1em #a52a21,
+    3em 0 0 1em #a52a21,
+    0 1em 0 2em #a52a21,
+    0 3em 0 1em #a52a21,
+    0 5em 0 0 #a52a21,
+    /* white borders */
+    -2em -2em 0 1em white,
+    2em -2em 0 1em white,
+    -3em -1em 0 1em white,
+    3em -1em 0 1em white,
+    -4em 0 0 1em white,
+    4em 0 0 1em white,
+    -3em 1em 0 1em white,
+    3em 1em 0 1em white,
+    1em 1em 0 2em white,
+    -1em 1em 0 2em white,
+    0 2em 0 2em white,
+    0 4em 0 1em white,
+    0 6em 0 0 white;
+}
