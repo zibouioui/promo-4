@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-=======
 * {
 	box-sizing: border-box;
 }
 
->>>>>>> e959bfa346e73f963857beff15f9b53bec23ef68
 body {
     background-color: aquamarine;
 }
@@ -15,9 +10,7 @@ html, body {
     width: 100%;
 }
 
-<<<<<<< HEAD
->>>>>>> Test
-=======
+
 *{
 	margin: 0;
 	padding: 0;
@@ -59,8 +52,6 @@ header>nav>ul>li:hover{
 	color: red;
 	padding: 0 10px 0 10px;
 }
->>>>>>> Stashed changes
-=======
 h1 {
 	font-size: 5em;
 	color: pink;
@@ -72,4 +63,8 @@ h1 {
     width: 100%;
     height: 20em;
 }
->>>>>>> e959bfa346e73f963857beff15f9b53bec23ef68
+
+ #content {
+ 	border: 2px solid green;
+ }
+
