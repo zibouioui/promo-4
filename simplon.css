@@ -10,6 +10,48 @@ html, body {
     width: 100%;
 }
 
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: url('images/headerbg.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 70vh;
+	padding-top: 10px;
+}
+
+.logo{
+	float: left;
+	color: white;
+}
+
+header>nav>ul{
+	float: right;
+}
+
+header>nav>ul>li{
+	display: inline-block;
+	margin-right: 20px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+
+header>nav>ul>li:hover{
+	color: red;
+	transition: color 0.5s;
+}
+
+.sign{
+	border: red 1px solid;
+	border-radius: 4px;
+	color: red;
+	padding: 0 10px 0 10px;
+}
 h1 {
 	font-size: 5em;
 	color: pink;
@@ -22,6 +64,12 @@ h1 {
     height: 20em;
 }
 
+<<<<<<< HEAD
+ #content {
+ 	border: 2px solid green;
+ }
+
+=======
 .heart{
     position: relative;
     width: 100px;
@@ -81,14 +129,21 @@ h1 {
 =======
 >>>>>>> 3497942419c95ee04da353d6653444d56c5720d1
 >>>>>>> 2d1e247f5651c3094acbe14a26be6e8d1a2a74d2
-footer{
-	background-color: red;
-}
-=======
-footer{
-	background-color: red;
-}
+
+
  #content {
  	border: 2px solid green;
  }
+<<<<<<< HEAD
+>>>>>>> 51766abd022fe14c932dce0f9a2608b0215db27d
+=======
 >>>>>>> 938d133735b0d8715ec717329ffb6cf769e731c9
+<<<<<<< HEAD
+
+footer{
+	background-color: red;
+	text-align: center;
+}
+=======
+>>>>>>> 3bb0c5b6f6eb335b28671bc81cb4afa2b45241c7
+>>>>>>> origin
