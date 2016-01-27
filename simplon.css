@@ -7,10 +7,5 @@ html, body {
     height: 100%;
     width: 100%;
 }
-#menu{
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
+
 >>>>>>> Test
