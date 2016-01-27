@@ -144,6 +144,10 @@ footer{
 	background-color: red;
 	text-align: center;
 }
+
+footer h2 {
+    background-color: yellow;
+}
 =======
 >>>>>>> 3bb0c5b6f6eb335b28671bc81cb4afa2b45241c7
 >>>>>>> origin
