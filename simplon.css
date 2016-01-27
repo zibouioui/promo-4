@@ -1,0 +1,23 @@
+body {
+	margin: 0px;
+}
+
+#pre_last_bloc {
+	width: 100%;
+	height: 25em;
+	background-color:#323A45;
+	margin: 0px;
+}
+
+#pre_last_bloc h2 {
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 170%;
+	margin: 0px;
+	padding-top: 3.5em;
+}
+
+span {
+	font-weight: bold;
+}
