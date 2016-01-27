@@ -1,14 +1,21 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+* {
+	box-sizing: border-box;
+}
+
+>>>>>>> e959bfa346e73f963857beff15f9b53bec23ef68
 body {
     background-color: aquamarine;
 }
-=======
 html, body {
     height: 100%;
     width: 100%;
 }
 
+<<<<<<< HEAD
 >>>>>>> Test
 =======
 *{
@@ -53,3 +60,16 @@ header>nav>ul>li:hover{
 	padding: 0 10px 0 10px;
 }
 >>>>>>> Stashed changes
+=======
+h1 {
+	font-size: 5em;
+	color: pink;
+}
+
+#cyan_box {
+    background-color: cyan;
+    margin-top: 5em;
+    width: 100%;
+    height: 20em;
+}
+>>>>>>> e959bfa346e73f963857beff15f9b53bec23ef68
