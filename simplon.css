@@ -24,8 +24,14 @@ h1 {
     width: 100%;
     height: 20em;
 }
+<<<<<<< HEAD
 >>>>>>> 1f423af0eaa0fa75743cd9ff8235fdaa20421ec0
 
 footer{
 	background-color: red;
 }
+=======
+ #content {
+ 	border: 2px solid green;
+ }
+>>>>>>> bcb8ab1c65f0eddccfbd5e3a3bbd5e4fcf6b097d
