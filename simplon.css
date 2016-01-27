@@ -15,6 +15,9 @@ h1 {
 	color: pink;
 }
 
+<<<<<<< HEAD
+
+=======
 #cyan_box {
     background-color: cyan;
     margin-top: 5em;
@@ -22,6 +25,19 @@ h1 {
     height: 20em;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 #callRandome{}
 =======
 >>>>>>> 0f321af379997281141b852e60c36e65bae86e57
+=======
+>>>>>>> 1f423af0eaa0fa75743cd9ff8235fdaa20421ec0
+
+footer{
+	background-color: red;
+}
+=======
+ #content {
+ 	border: 2px solid green;
+ }
+>>>>>>> bcb8ab1c65f0eddccfbd5e3a3bbd5e4fcf6b097d
+>>>>>>> 5f5fa1768daa0313936bc0a34268bbfcb9ef3816
