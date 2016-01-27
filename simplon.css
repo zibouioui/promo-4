@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
     background-color: aquamarine;
 }
@@ -6,7 +10,8 @@ html, body {
     width: 100%;
 }
 
-
-#dzadaazea {
-color: blue;
+h1 {
+	font-size: 5em;
+	color: pink;
 }
+
