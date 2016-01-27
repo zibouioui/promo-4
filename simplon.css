@@ -1,3 +1,17 @@
+<<<<<<< HEAD
 .Conseil-pour-Flo {
   height: 700px; width: 500px; background-color: HotPink; text-align: center; font-size: 50px; color: black;
+=======
+body {
+    background-color: aquamarine;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+#dzadaazea {
+color: blue;
+>>>>>>> 2d3372e9bf43ac06a77c5726a2123fd781655b2e
 }
