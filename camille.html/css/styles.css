@@ -1,0 +1,54 @@
+.container {
+  display: inline-flex;
+  background-color: gray;
+}
+
+
+.block1 {
+  display: inline-block;
+  background-image: url("../images/La-video-cute-du-jour-le-chat-qui-trotte.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 700px;
+  height: 500px;
+}
+
+.block1 p {
+  border: solid 3px blue;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  color: blue;
+  margin-left: 80px;
+}
+
+.block2 {
+  display: inline-block;
+  width: 700px;
+  height: 500px;
+}
+
+
+.texteblock2 {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  margin: 80px;
+}
+
+#bouton {
+  position: relative;
+  margin-top: -300px;
+  margin-left: 100px;
+}
+
+#bouton ul {
+  background-color: rgb(34, 54, 57);
+  border: 5px none;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+}
