@@ -25,11 +25,12 @@
 	float: left;
 	width: 50%;
 	height: 900px;
+	background-color: #8A6751;
 }
 
 .titre2 {
 	padding: 40px;
-	color: grey;
+	color: #33472D;
 }
 
 .texte{
@@ -42,7 +43,10 @@
 	height: 40px;
 }
 
-.test {
-	text-align: center;
-	vertical-align: center;
+.saisie {
+	margin-left: 40px;
+}
+
+.bouton {
+	background-color: #33472D;
 }
