@@ -1,10 +1,22 @@
 section {
-    height: 700px;
+    /* height: 700px; */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.imagecontent {
+    background: white url("../Images/Cat.jpg") no-repeat center center;
+    background-size: cover;
+    width: 50%;
 }
 
 .imagecontent h1 {
-    font-size: 3rem;
-    font-weight: bold;
     color: white;
     margin: 40px;
     padding: 10px;
@@ -12,29 +24,14 @@ section {
     text-align: center;
 }
 
-section {
-    display: flex;
-}
-
-section .imagecontent {
-    background-color: white;
-    background-image: url(../Images/Cat.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-}
-
 .textcontent {
     padding: 20px 50px;
+    box-sizing: border-box;
     background-color: white;
     width: 50%;
-    margin: 0;
 }
 
 .textcontent h1 {
-    font-size: 3rem;
-    font-weight: bold;
     margin-bottom: 80px;
 }
 
@@ -43,7 +40,7 @@ section .imagecontent {
     font-size: 1.7rem;
 }
 
-.fa {
+.fa-github {
     padding-right: 5px;
 }
 
@@ -54,16 +51,29 @@ section .imagecontent {
 
 .textcontent .interact {
     display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
     align-items: baseline;
     margin-top: 60px;
 }
 
-.form-control {
+.form-control,
+.btn-success {
     margin-right: 10px;
 }
 
-.btn-success {
-    margin-right: 10px;
+@media (max-width: 800px) {
+    section .imagecontent,
+    section .textcontent {
+        width: 100%;
+    }
+    section .imagecontent {
+        height: 500px;
+    }
+    .textcontent .interact {
+        flex-direction: column;
+    }
+    .interact input,
+    .interact a,
+    .interact p {
+        margin: 10px 0;
+    }
 }
