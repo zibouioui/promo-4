@@ -53,6 +53,10 @@ padding-bottom: 2%;
 	margin: auto;
 }
 
+.form input {
+	padding-right: 5%;
+}
+
 .btn {
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
@@ -63,10 +67,15 @@ padding-bottom: 2%;
   background: #449D44;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-	padding-left: 30%;
+	margin-left: 5%;
 }
 
 .btn:hover {
   background: #06d903;
   text-decoration: none;
+}
+
+.btn a {
+	text-decoration: none;
+	
 }
