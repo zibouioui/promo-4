@@ -1,242 +1,72 @@
-body {
-	margin: 0px;
+header {
+	display: flex;
 }
 
-#pre_last_bloc {
-	width: 100%;
-	height: 25em;
-	background-color:#323A45;
-	margin: 0px;
-}
-
-#pre_last_bloc h2 {
-	color: white;
-	text-align: center;
-	font-weight: lighter;
-	font-size: 170%;
-	margin: 0px;
-	padding-top: 3.5em;
-}
-
-span {
-	font-weight: bold;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-<<<<<<< HEAD
-    background-color: 
-=======
-
-    background-color: aquamarine;
-    background-color: red;
-
->>>>>>> 82f31c4692dfb4fe4852da81a2ec756b298210f9
-}
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
-
-*{
-	margin: 0;
-	padding: 0;
-}
-
-header{
-	background: url('images/headerbg.jpg');
+.left {
+	width: 50%;
+	background-image: url(chat.jpg);
 	background-size: cover;
-	width: 100%;
-	height: 70vh;
-	padding-top: 10px;
+	height: 100vh;
 }
 
-.logo{
-	float: left;
+.left h1 {
+	border: 2px solid black;
+	border-color: white;
 	color: white;
-}
-
-header>nav>ul{
-	float: right;
-}
-
-header>nav>ul>li{
-	display: inline-block;
-	margin-right: 20px;
-	height: 40px;
-	line-height: 40px;
-	color: white;
-}
-
-header>nav>ul>li:hover{
-	color: red;
-	transition: color 0.5s;
-}
-
-.sign{
-	border: red 1px solid;
-	border-radius: 4px;
-	color: red;
-	padding: 0 10px 0 10px;
-}
-h1 {
-	font-size: 5em;
-	color: pink;
-}
-
-<<<<<<< HEAD
-#diana {
-	color: darkblue;
-}
-
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> a4bb52b390b2d6142b002141f4b00862a48c2992
-#cyan_box {
-    background-color: cyan;
-    margin-top: 5em;
-    width: 100%;
-    height: 20em;
-}
-
- #content {
- 	border: 2px solid green;
- }
-
-.heart{
-    position: relative;
-    width: 100px;
-    height: 90px;
-    float: left;
-}
-.heart:before,
-.heart:after{
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 0;
-    width: 50px;
-    height: 80px;
-    background: #fc2e5a;
-    -moz-border-radius: 50px 50px 0 0;
-    border-radius: 50px 50px 0 0;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    -webkit-transform-origin: 0 100%;
-       -moz-transform-origin: 0 100%;
-        -ms-transform-origin: 0 100%;
-         -o-transform-origin: 0 100%;
-            transform-origin: 0 100%;
-}
-.heart:after{
-    left: 0;
-    -webkit-transform: rotate(45deg);
-       -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-         -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-    -webkit-transform-origin: 100% 100%;
-       -moz-transform-origin: 100% 100%;
-        -ms-transform-origin: 100% 100%;
-         -o-transform-origin: 100% 100%;
-            transform-origin :100% 100%;
-}
-
- #content {
- 	border: 2px solid green;
- }
-
- #content {
- 	border: 2px solid green;
- }
-
- #content {
- 	border: 2px solid green;
- }
- #miaou{
-  width: 100%;
-  height: 500px;
-  background: url('images/chaton-trop-mignon-tigre.jpg') no-repeat center;
- }
-
-footer{
-	background-color: red;
 	text-align: center;
+	width: 75%;
+	display: block;
+margin: auto;
+margin-top: 10%;
+padding-top: 2%;
+padding-bottom: 2%;
 }
 
-footer h2 {
-    background-color: yellow;
+.right {
+	width: 50%;
 }
 
-h6 {
-	color: yellow;
-	font-weight: bold;
+.right h1 {
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top: 7%;
+	padding-bottom: 6%;
 }
 
-.he5art-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  margin-top: -2em;
-  font-size: 5px;
+.right p {
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding: 5%;
 }
 
-.he5art {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin: 0 7em;
-  background: #a52a21;
-  box-shadow:
-    /* white shine */
-    0 -2em 0 white,
-    -3em 0 0 white,
-    -2em -1em 0 white,
-    /* top shades */
-    0 -1em 0 0 #c52317,
-    -1em -2em 0 0 #c52317,
-    -2em -2em 0 0 #c52317,
-    -3em -2em 0 0 #c52317,
-    1em -2em 0 0 #c52317,
-    2em -2em 0 0 #c52317,
-    3em -2em 0 0 #c52317,
-    -4em -1em 0 0 #c52317,
-    4em -1em 0 0 #c52317,
-    /* fills my heart */
-    0 0 0 2em #a52a21,
-    -1em 0 0 2em #a52a21,
-    1em 0 0 2em #a52a21,
-    -3em 0 0 1em #a52a21,
-    3em 0 0 1em #a52a21,
-    0 1em 0 2em #a52a21,
-    0 3em 0 1em #a52a21,
-    0 5em 0 0 #a52a21,
-    /* white borders */
-    -2em -2em 0 1em white,
-    2em -2em 0 1em white,
-    -3em -1em 0 1em white,
-    3em -1em 0 1em white,
-    -4em 0 0 1em white,
-    4em 0 0 1em white,
-    -3em 1em 0 1em white,
-    3em 1em 0 1em white,
-    1em 1em 0 2em white,
-    -1em 1em 0 2em white,
-    0 2em 0 2em white,
-    0 4em 0 1em white,
-    0 6em 0 0 white;
+.button {
+	width: 80%;
+	display: block;
+	margin: auto;
 }
 
-iframe {
-  margin-left: 24em;
+.form {
+	display: flex;
+	width: 80%;
+	margin: auto;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  background: #449D44;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+	padding-left: 30%;
+}
+
+.btn:hover {
+  background: #06d903;
+  text-decoration: none;
 }
