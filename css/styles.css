@@ -10,9 +10,10 @@ body {
 #fond {
  	width: 50%;
  	height: 41em;
- 	background-image: url("../images/Chat.jpg");
- 	background-size: 150%;
+ 	background-image: url("../images/giphy.gif");
+ 	background-size: cover;
  	background-repeat: no-repeat;
+ 	background-position: center;
  	color: white;
  }
 
@@ -28,11 +29,11 @@ body {
  }
 
  #second_bloc {
- 	width: 50%;
+ 	width: 40%;
  	height: 41em;
  	color: #333333;
- 	padding: 0em 4em;
  	margin-top: 2em;
+ 	margin-left: 5%;
  }
 
  #space {
