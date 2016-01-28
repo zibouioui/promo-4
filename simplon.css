@@ -41,4 +41,34 @@ body,html {
 .contenu-droit {
   height: 100%;
   width: 50%;
+  padding: 17% 0 0 5%;
+}
+
+.contenu-droit a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contenu-droit a span {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.contenu-droit h1 {
+  margin-bottom: 60px;
+}
+
+
+
+.contenu-droit p {
+  font-size: 18px;
+  color: #3d3d3d;
 }
