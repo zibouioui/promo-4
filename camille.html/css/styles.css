@@ -1,6 +1,6 @@
 .container {
   display: inline-flex;
-  background-color: gray;
+  background-color: rgb(211, 211, 211);;
 }
 
 
@@ -11,22 +11,23 @@
   background-position: center;
   background-size: cover;
   width: 700px;
-  height: 500px;
+  height: 800px;
 }
 
 .block1 p {
-  border: solid 3px blue;
+  border: solid 3px rgb(29, 172, 136);
   padding: 20px;
   text-align: center;
-  width: 400px;
-  color: blue;
-  margin-left: 80px;
+  width: 550px;
+  color: rgb(29, 172, 136);
+  margin-left: 50px;
+  font-size: 3em;
 }
 
 .block2 {
   display: inline-block;
   width: 700px;
-  height: 500px;
+  height: 800px;
 }
 
 
@@ -37,14 +38,37 @@
   margin: 80px;
 }
 
-#bouton {
-  position: relative;
-  margin-top: -300px;
-  margin-left: 100px;
+.texteblock2 {
+  font-size: 23px;
 }
 
-#bouton ul {
-  background-color: rgb(34, 54, 57);
+#bouton {
+  position: relative;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+#bouton1 {
+  background-color: white;
+  border: 5px rgb(29, 172, 136);
+  padding: 10px;
+  color: rgb(29, 172, 136);
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+}
+
+#bouton2 {
+  background-color: rgb(29, 172, 136);
+  border: 5px none;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+}
+
+#bouton3 {
   border: 5px none;
   padding: 10px;
   color: white;
