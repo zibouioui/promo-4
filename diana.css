@@ -1,4 +1,51 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans'
+}
+
+
+#part1 {
+	padding-top: 60px;
+	height:900px;
+	color: white;
+	background-image: url("images/chat.jpg");
+	background-size: cover;
+	float:left;
+	width:50%;
+}
+
+#encadre {
+
+	width: 700px;
+	text-align: center;
+	border-style:solid;
+	border-color: white;
+	margin-left: 100px;
+	border-width: 0.5px;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 20px 30px 30px 30px;
+
+}
+
+#part2 {
+	padding-top: 40px;
+	padding-left: 60px;
+	height:900px;
+	color: black;
+	background-color: white;
+	margin-left: 50%;
+	font-size: 20px;
+	line-height: 1.5em;
+
+}
+
+#part2 h1 {
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.col-md-4 {
+	display: inline-block;
 }
