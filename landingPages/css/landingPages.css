@@ -30,7 +30,7 @@ main section{
   width: 90%;
   position: relative;
   margin: auto;
-  text-align: justify;
+  text-align: left;
 }
 .right h1{
   font-size: 35px;
@@ -39,12 +39,12 @@ main section{
 }
 .right h3{
   position: relative;
-  margin-top: 8%;
+  margin-top: 9%;
   font-size: 23px;
 }
 .right span img{
   position: relative;
-  width: 10%;
+  width: 13%;
   margin-top: 5%;
   margin-left: 5%;
 
