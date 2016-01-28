@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'GNU Freefont';
+    src: local('../fonts/FreeSans.woff');
+}
+
 html, body {
+    font-family: "GNU Freefont";
     height: 100%;
     width: 100%;
 }
@@ -8,6 +14,19 @@ main {
     flex-direction: row;
     height: 100%;
     width: 100%;
+}
+
+.landing_button {
+    border: none;
+    border-radius: 3px;
+    padding: .5em 1em;
+}
+
+.landing_input {
+    box-sizing: border-box;
+    height: 3.2em;
+    vertical-align: middle;
+    padding-left: 1em;
 }
 
 #cat {
@@ -27,5 +46,22 @@ main {
 }
 
 #deploying {
+    box-sizing: border-box;
     flex-basis: 50%;
+    padding: 5em 5em;
+}
+
+#deploying h1 {
+    font-size: 3em;
+    margin-bottom: 2em;
+}
+
+#deploying input:not([type='button']) {
+    border: 2px solid silver;
+}
+
+#deploying input[type='button'] {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1em 2em;
 }
