@@ -1,9 +1,10 @@
+
 body{
   font-family: 'Cabin', sans-serif;
 }
 main{
   position: relative;
-  height: 655px;
+  height:100vh;
 
 }
 main section{
