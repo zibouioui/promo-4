@@ -9,21 +9,6 @@
     font-weight: bold;
 }
 
-
-/*
-@font-face {
-    font-family: "DejaVu Sans";
-    src: url("fonts/DejaVuSans-Oblique.ttf");
-    font-style: italic, oblique;
-}
-@font-face {
-    font-family: "DejaVu Sans";
-    src: url("fonts/DejaVuSans-BoldOblique.ttf");
-    font-weight: bold;
-    font-style: italic, oblique;
-}
-*/
-
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -34,11 +19,11 @@ section {
     height: 100vh;
 }
 
-h1 {
-    font-size: 2rem;
+.monkey h1 {
+    font-size: 1.7rem;
     color: white;
     margin: 40px;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid white;
     text-align: center;
 }
@@ -51,7 +36,7 @@ section {
 
 section .monkey {
     align-items: center;
-    background-color: deepskyblue;
+    background-color: white;
     background-image: url(../Images/Monkey.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -62,7 +47,45 @@ section .monkey {
 }
 
 .content {
-    background-color: #ecf0f1;
+    padding: 20px 80px;
+    background-color: white;
     width: 50%;
     margin: 0;
+}
+
+.content h1 {
+    font-size: 1.7rem;
+    margin-bottom: 80px;
+}
+
+.content p {
+    color: gray;
+}
+
+.gitbutton {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.fa {
+    padding-right: 5px;
+}
+
+.content .interact {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.email {
+    font-size: 30px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.greenbutton {
+    background-color: limegreen;
+    color: white;
+    margin-right: 10px;
 }
