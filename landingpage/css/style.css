@@ -1,22 +1,44 @@
 /* ////////////////////////// GAUCHE */
 
 body {
-    background-color: grey;
+    margin: 0;
 }
 
-.titre {
+#gauche {
+    background-image: url("../images/mer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100vh;
+}
+
+h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
-.box {
-    width: 50%;
-    height: 50%;
-    border: 2px solid white;
+#cadre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    width: 70%;
+    height: 8%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    padding-top: 15px;
 }
 
 
 /* ////////////////////////// DROITE */
+#droite {    
+    float: right;
+    width: 45%;
+    padding: 20px;
+}
+
 .description {
     font-family: 'Roboto', sans-serif;
 }
