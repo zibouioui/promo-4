@@ -16,13 +16,18 @@ body {
 	color: white;
 	border: 2px solid white;
 	width: 75%;
-	height: 50px;
+	/*height: 80px;*/
 	margin: auto;
 	margin-top: 7%;
-	padding: auto;
+	padding: 10px 0;
+}
 
 #droite {
 	width: 50%;
 	float: right;
+}
+
+#container {
+	margin: 30px;
 }
 
