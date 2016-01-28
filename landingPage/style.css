@@ -30,4 +30,29 @@ body {
 #container {
 	margin: 30px;
 }
+#container h1 {
+	color:#252325;
+}
+#container p {
+	margin-top: 80px;
+}
+#bouton_fork {
+	width: 15%;
+	border: 1px solid black;
+	border-radius: 8px;
+	margin-top: 30px;
+}
+
+#bouton_fork p {
+	margin: 0;
+	padding-top: 4px;
+	padding-right: 5px;
+	vertical-align: top;
+	float: right;
+
+}
+img {
+	width: 50%;
+	 border-radius: 50px;
+}
 
