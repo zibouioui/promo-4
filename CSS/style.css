@@ -1,0 +1,26 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section .monkey {
+    background-color: deepskyblue;
+    background-image: url(../Images/Monkey.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+section .monkey h1 {
+    color: red;
+    margin: 40px;
+    border: 10px solid red;
+    text-align: center;
+}
+
+.content {
+    background-color: deepskyblue;
+    width: 50%;
+    margin: 40px;
+}
