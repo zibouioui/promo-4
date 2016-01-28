@@ -16,6 +16,7 @@ body {
 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 30pt;
 }
 
 #cadre {
@@ -23,20 +24,20 @@ h2 {
     font-weight: 700;
     color: white;
     width: 70%;
-    height: 8%;
     border-width: 3px;
     border-style: solid;
     border-color: white;
     text-align: center;
-    padding-top: 15px;
+    /*padding: 15px;*/
+    margin: auto;
 }
 
 
 /* ////////////////////////// DROITE */
 #droite {    
     float: right;
-    width: 45%;
-    padding: 20px;
+    width: 42%;
+    padding: 40px 40px 0px 40px;
 }
 
 .description {
