@@ -44,6 +44,7 @@ body {
  li {
  	display: inline-block;
  	padding-top: 4em;
+ 	color: #777777;
  }
 
  button {
@@ -69,6 +70,18 @@ body {
  #case {
  	border: 1px solid #BBBBBB;
  	border-radius: 3px;
- 	padding:8px 120px 8px 8px;
+ 	padding:8px 150px 8px 8px;
+ }
 
+ h5 {
+ 	font-weight: lighter;
+ }
+
+ #case2 {
+ 	background-color: #16B84E;
+ 	padding: 8px;
+ 	border-radius: 3px;
+ 	border: 1px dashed #BBBBBB;
+ 	color: #EEEEEE;
+ 	margin: 0px;
  }
