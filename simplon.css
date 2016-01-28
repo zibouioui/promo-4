@@ -44,7 +44,7 @@ body,html {
   padding: 17% 0 0 5%;
 }
 
-.contenu-droit a {
+.contenu-droit p a {
   display: inline-block;
   text-decoration: none;
   color: black;
@@ -57,7 +57,7 @@ body,html {
   margin-bottom: 30px;
 }
 
-.contenu-droit a span {
+.contenu-droit p a span {
   font-size: 18px;
   margin-right: 5px;
 }
@@ -71,4 +71,24 @@ body,html {
 .contenu-droit p {
   font-size: 18px;
   color: #3d3d3d;
+}
+
+input[type='textarea'] {
+  padding: 3px;
+  padding-left: 5px;
+}
+
+.bouton-form {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 7px 5px 7px;
+  background-color: rgba(155, 197, 61, 0.8);
+  border-radius: 5px;
+  margin-top: 45px;
+  font-size: 15px;
+  border: 1px solid rgba(155, 197, 61, 1);
+}
+.bouton-form:hover {
+  background-color: rgba(155, 197, 61, 1);
 }
