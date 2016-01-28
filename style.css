@@ -1,25 +1,26 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
 }
 
-.cat {
-
+.cat  {
+  flex: 1;
   background-image:url(images/happy-cat.jpg);
   background-size:cover;
   text-align: center;
-  height: 884px;
-  width: 50%;
+  height: 100vh;
   color: white;
 }
 
 .cat h1 {
   color: white;
-  border: 1px solid white;
+  border: 3px solid white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -30,13 +31,68 @@
 }
 
 .github {
+  flex: 1;
   background-color: white;
-  height: 884px;
-  width: 50%;
-  margin: 32px;
+  height: 100vh;
+  margin: 50px;
 }
 
 .github h1 {
-  color: grey;
+  color: #363636;
   font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.github p {
+  margin-bottom: 20px;
+  line-height: 36px;
+}
+
+.grey {
+  margin-bottom: 20px;
+  background-color:#F9F9F9;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  color: #363636;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:bold;
+}
+
+.github i {
+  margin-right: 5px;
+}
+
+#submit {
+  display:flex;
+  flex-direction: row;
+}
+
+input {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px;
+  padding: 10px 32px;
+  width: 280px;
+  text-align: left;
+  color: #E9EBEB;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.green-button {
+    background-color: #449D44;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 15px;
 }
