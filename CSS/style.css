@@ -1,3 +1,44 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+
+/*
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url("fonts/DejaVuSans-Oblique.ttf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url("fonts/DejaVuSans-BoldOblique.ttf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font: normal 1rem 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    margin: 40px;
+    padding: 5px;
+    border: 2px solid white;
+    text-align: center;
+}
+
 section {
     display: flex;
     flex-direction: row;
@@ -5,22 +46,17 @@ section {
 }
 
 section .monkey {
+    align-items: center;
     background-color: deepskyblue;
     background-image: url(../Images/Monkey.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     width: 50%;
-}
-
-section .monkey h1 {
-    color: red;
-    margin: 40px;
-    border: 10px solid red;
-    text-align: center;
+    margin: 0;
 }
 
 .content {
-    background-color: deepskyblue;
+    background-color: #ecf0f1;
     width: 50%;
-    margin: 40px;
+    margin: 0;
 }
