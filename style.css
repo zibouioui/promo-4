@@ -1,8 +1,10 @@
 html{
-	margin:0;
-	padding:0;
+	height: 100%;
+	width: 100%;
+
 }
 .left{
+	position: absolute;
 	background: url(image/goodCat.jpg); ;
 	background-size: cover;
 	color: white;
@@ -10,7 +12,23 @@ html{
 	height: 600px;
 }
 .left h1{
-	padding: 0;
-	margin: 0;
-	border : 1px solid;
+position: relative;
+border: 2px solid;
+padding-top: 7%;
+text-align: center;
+padding: 2% 0 2% 0;
+margin: 0% 13% 0 13%;
+margin-top: 5%;
+}
+.fork{font-weight: bold;}
+
+.right{
+	background-size: cover;
+	width:45%;
+	height: 600px;
+	float: right;
+	margin-top: 2%;}
+.prems{
+
+	background-color: green;
 }
