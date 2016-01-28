@@ -48,12 +48,16 @@ main {
 #deploying {
     box-sizing: border-box;
     flex-basis: 50%;
-    padding: 5em 5em;
+    padding: 2.5em 5em;
 }
 
 #deploying h1 {
     font-size: 3em;
     margin-bottom: 2em;
+}
+
+#deploying p {
+    margin-bottom: 3em;
 }
 
 #deploying input:not([type='button']) {
