@@ -1,26 +1,10 @@
-@font-face {
-    font-family: "Roboto";
-    src: url('../Fonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("fonts/Roboto-Bold.ttf");
-    font-weight: bold;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    font: normal 1rem 'Roboto', sans-serif;
-}
-
 section {
-    height: 100vh;
+    height: 700px;
 }
 
-.monkey h1 {
-    font-size: 1.7rem;
+.imagecontent h1 {
+    font-size: 3rem;
+    font-weight: bold;
     color: white;
     margin: 40px;
     padding: 10px;
@@ -30,62 +14,56 @@ section {
 
 section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
-section .monkey {
-    align-items: center;
+section .imagecontent {
     background-color: white;
-    background-image: url(../Images/Monkey.jpg);
+    background-image: url(../Images/Cat.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
     width: 50%;
-    margin: 0;
 }
 
-.content {
-    padding: 20px 80px;
+.textcontent {
+    padding: 20px 50px;
     background-color: white;
     width: 50%;
     margin: 0;
 }
 
-.content h1 {
-    font-size: 1.7rem;
+.textcontent h1 {
+    font-size: 3rem;
+    font-weight: bold;
     margin-bottom: 80px;
 }
 
-.content p {
-    color: gray;
-}
-
-.gitbutton {
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 5px 10px;
+.textcontent p {
+    color: #555;
+    font-size: 1.7rem;
 }
 
 .fa {
     padding-right: 5px;
 }
 
-.content .interact {
+.btn-default {
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.textcontent .interact {
     display: inline-flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: baseline;
+    margin-top: 60px;
 }
 
-.email {
-    font-size: 30px;
-    border-radius: 4px;
+.form-control {
     margin-right: 10px;
 }
 
-.greenbutton {
-    background-color: limegreen;
-    color: white;
+.btn-success {
     margin-right: 10px;
 }
