@@ -39,13 +39,18 @@ main section{
 }
 .right h3{
   position: relative;
-  margin-top: 9%;
+  margin-top: 3%;
+  font-size: 20px;
+}
+.right h2{
+  position: relative;
+  margin-top: 13%;
   font-size: 20px;
 }
 .right span img{
   position: relative;
   width: 13%;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 5%;
 
 }
