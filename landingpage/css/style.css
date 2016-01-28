@@ -1,0 +1,27 @@
+/* ////////////////////////// GAUCHE */
+
+body {
+    background-color: grey;
+}
+
+.titre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    border: 2px solid white;
+}
+
+
+/* ////////////////////////// DROITE */
+.description {
+    font-family: 'Roboto', sans-serif;
+}
+
+#bouton {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
