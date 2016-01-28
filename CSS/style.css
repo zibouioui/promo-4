@@ -30,6 +30,10 @@ body {
     font: normal 1rem 'Roboto', sans-serif;
 }
 
+section {
+    height: 100vh;
+}
+
 h1 {
     font-size: 2rem;
     color: white;
@@ -51,6 +55,8 @@ section .monkey {
     background-image: url(../Images/Monkey.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
     width: 50%;
     margin: 0;
 }
