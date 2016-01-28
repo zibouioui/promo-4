@@ -27,8 +27,13 @@ margin-top: 5%;
 	width:45%;
 	height: 600px;
 	float: right;
-	margin-top: 2%;}
+	margin-top: 2%;
+	}
+	
+.grey{color: rgb(113,117,137);}
+
 .prems{
 
 	background-color: green;
+	color : white;
 }
