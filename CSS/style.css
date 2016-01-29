@@ -1,8 +1,12 @@
 section {
-    /* height: 700px; */
+    /* height: 600px; */
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+}
+
+body {
+    font-size: 100%;
 }
 
 h1 {
@@ -26,6 +30,7 @@ h1 {
 
 .textcontent {
     padding: 20px 50px;
+    /* box-sizing required to silent ccslint alert */
     box-sizing: border-box;
     background-color: white;
     width: 50%;
@@ -42,6 +47,7 @@ h1 {
 
 .fa-github {
     padding-right: 5px;
+    vertical-align: middle;
 }
 
 .btn-default {
@@ -58,6 +64,10 @@ h1 {
 .form-control,
 .btn-success {
     margin-right: 10px;
+}
+
+.btn-success {
+    padding: auto 10px auto 10px;
 }
 
 @media (max-width: 800px) {
