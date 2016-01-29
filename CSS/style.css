@@ -1,12 +1,11 @@
-section {
+.row {
     /* height: 600px; */
     height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 body {
     font-size: 100%;
+    background-color: aqua;
 }
 
 h1 {
@@ -15,9 +14,11 @@ h1 {
 }
 
 .imagecontent {
-    background: white url("../Images/Cat.jpg") no-repeat center center;
+    background: peachpuff url("../Images/Cat.jpg") no-repeat center center;
     background-size: cover;
-    width: 50%;
+    height: 100%;
+    /* overflow required for unknown reason */
+    overflow: hidden;
 }
 
 .imagecontent h1 {
@@ -33,7 +34,7 @@ h1 {
     /* box-sizing required to silent ccslint alert */
     box-sizing: border-box;
     background-color: white;
-    width: 50%;
+    height: 100%;
 }
 
 .textcontent h1 {
@@ -59,6 +60,7 @@ h1 {
     display: inline-flex;
     align-items: baseline;
     margin-top: 60px;
+    color: blueviolet;
 }
 
 .form-control,
@@ -67,23 +69,5 @@ h1 {
 }
 
 .btn-success {
-    padding: auto 10px auto 10px;
-}
-
-@media (max-width: 800px) {
-    section .imagecontent,
-    section .textcontent {
-        width: 100%;
-    }
-    section .imagecontent {
-        height: 500px;
-    }
-    .textcontent .interact {
-        flex-direction: column;
-    }
-    .interact input,
-    .interact a,
-    .interact p {
-        margin: 10px 0;
-    }
+    padding: inherit 10px;
 }

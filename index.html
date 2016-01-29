@@ -8,11 +8,8 @@
     <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- normalize -->
-    <link rel="stylesheet" href="css/normalize.css">
-
     <!-- Bootstrap Minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <!-- font-awesome CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -24,24 +21,31 @@
 </head>
 
 <body>
-    <section>
-        <div class="imagecontent">
-            <h1>Popote landing page</h1>
-        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 imagecontent">
+                <h1>Popote landing page</h1>
+            </div>
+            <div class="col-sm-6 textcontent">
+                <h1>Deployer et mettre en forme facilement une landing page sur Github</h1>
+                <p>Créer une landing page pour tester vos idées (lean Startup)</p>
+                <a class="btn btn-default" href="#"><i class="fa fa-github fa-2x"></i><span>Fork</span></a>
+                <p>Avec Github, vous pouvez facilement éditer, ajouter des URLs et optimiser vos ids</p>
 
-        <div class="textcontent">
-            <h1>Deployer et mettre en forme facilement une landing page sur Github</h1>
-            <p>Créer une landing page pour tester vos idées (lean Startup)</p>
-            <a class="btn btn-default" href="#"><i class="fa fa-github fa-2x"></i><span>Fork</span></a>
-            <p>Avec Github, vous pouvez facilement éditer, ajouter des URLs et optimiser vos ids</p>
-
-            <div class="interact">
-                <input type="email" class="form-control" placeholder="test">
-                <a class="btn btn-primary btn-success" href="#">Prem's</a>
-                <p>Submitting...</p>
+                <div class="interact">
+                    <input type="email" class="form-control" placeholder="test">
+                    <a class="btn btn-primary btn-success" href="#">Prem's</a>
+                    <p>Submitting...</p>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 
 </html>
