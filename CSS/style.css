@@ -1,11 +1,11 @@
 .row {
-    /* height: 600px; */
     height: 100vh;
+    /* alternative */
+    /* height: 600px; */
 }
 
 body {
     font-size: 100%;
-    background-color: aqua;
 }
 
 h1 {
@@ -14,10 +14,11 @@ h1 {
 }
 
 .imagecontent {
-    background: peachpuff url("../Images/Cat.jpg") no-repeat center center;
+    background: peachpuff url("../images/Cat.jpg") no-repeat center center;
     background-size: cover;
     height: 100%;
-    /* overflow required for unknown reason */
+    /* required to prevent image clipping when resizing to sm */
+    /* this solve the problem for unknown reason to me */
     overflow: hidden;
 }
 
@@ -48,6 +49,7 @@ h1 {
 
 .fa-github {
     padding-right: 5px;
+    /* required in order to align text with image */
     vertical-align: middle;
 }
 
@@ -56,18 +58,11 @@ h1 {
     font-weight: bold;
 }
 
-.textcontent .interact {
-    display: inline-flex;
-    align-items: baseline;
+form {
     margin-top: 60px;
-    color: blueviolet;
 }
 
 .form-control,
 .btn-success {
     margin-right: 10px;
-}
-
-.btn-success {
-    padding: inherit 10px;
 }
