@@ -1,11 +1,9 @@
-.row {
-    height: 100vh;
-    /* alternative */
-    /* height: 600px; */
-}
-
 body {
     font-size: 100%;
+}
+
+.row {
+    height: 100vh;
 }
 
 h1 {
@@ -18,11 +16,10 @@ h1 {
     background-size: cover;
     height: 100%;
     /* required to prevent image clipping when resizing to sm */
-    /* this solve the problem for unknown reason to me */
     overflow: hidden;
 }
 
-.imagecontent h1 {
+.imagecontent .title {
     color: white;
     margin: 40px;
     padding: 10px;
@@ -38,7 +35,7 @@ h1 {
     height: 100%;
 }
 
-.textcontent h1 {
+.textcontent .title {
     margin-bottom: 80px;
 }
 
